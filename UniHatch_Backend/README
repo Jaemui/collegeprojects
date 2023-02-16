@@ -1,0 +1,10 @@
+UniHatch is a University Student Focused Housing Matching Web-Application project created by Joshua Tran, Summer Ngo, Jordan Mak, and Jason Zhao. 
+
+This file primarily contains the back-end code of the web-application. 
+
+Unihatch.py contains the execute code that will access the various respositories within the Unihatch folder and call upon their functions. 
+__init__.py initializes the app variable and other variables imported from python libraries that are used in ohter repositories. 
+create_db.py connectst the backend flask framework to the MySQL database created by Jason Zhao 
+forms.py creates the various flask forms that take in user input to be saved to the database for account management, listing, and cross-referencing 
+models.py takes in the data from the forms and organizes it into a model that can be connected to the database 
+routes.py connects the forms to the front-end part of the code and takes the input from forms+front-end and applies it to the database models and commits it to the database. 
