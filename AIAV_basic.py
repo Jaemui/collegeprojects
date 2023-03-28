@@ -5,6 +5,11 @@ import random
 import struct 
 import math 
 
+#This is an audio visualizer that reads direct audio input from the mic and takes the frequency and amplitude data to create appropiately sized and colored shapes.
+#The frequency of the sampled audio data determines the color of the shape with low frequencies being associated with a given RGB value and higher frequencies being asscoited with different RGB values 
+#The amplitude of the sampled audio data determines the size of the shapes
+#Additional elements were added for the visualizer to be used for events and a amplitude threshold variable was added to adjust the sensitivty of the program. 
+
 
 # Set up the Pygame window
 window_width = 1920
